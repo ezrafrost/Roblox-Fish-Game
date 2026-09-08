@@ -1,0 +1,13 @@
+# Project place file
+/Roblox fish game.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+sourcemap.json
+
+# Wally-managed packages (fetched via `wally install`, not committed)
+/Packages
+/ServerPackages
+/DevPackages

@@ -1,0 +1,177 @@
+{
+  "name": "Roblox fish game",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Config": {
+        "$path": "src/shared/Config"
+      },
+      "Shared": {
+        "$path": "src/shared/Shared"
+      },
+      "Remotes": {
+        "$className": "Folder"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      },
+      "ServerPackages": {
+        "$path": "ServerPackages"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            0.38823,
+            0.37254,
+            0.38823
+          ],
+          "Locked": true,
+          "Position": [
+            0,
+            -10,
+            0
+          ],
+          "Size": [
+            512,
+            20,
+            512
+          ]
+        }
+      },
+      "Plots": {
+        "$className": "Folder",
+        "Plot1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "CanCollide": true,
+            "Color": [0.6, 0.8, 1.0],
+            "Position": [-100, 1, -100],
+            "Size": [40, 2, 40]
+          }
+        },
+        "Plot2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "CanCollide": true,
+            "Color": [0.6, 1.0, 0.8],
+            "Position": [100, 1, -100],
+            "Size": [40, 2, 40]
+          }
+        },
+        "Plot3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "CanCollide": true,
+            "Color": [1.0, 0.8, 0.6],
+            "Position": [-100, 1, 100],
+            "Size": [40, 2, 40]
+          }
+        },
+        "Plot4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "CanCollide": true,
+            "Color": [1.0, 0.6, 0.8],
+            "Position": [100, 1, 100],
+            "Size": [40, 2, 40]
+          }
+        }
+      },
+      "Zones": {
+        "$className": "Folder",
+        "Pond": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "CanCollide": true,
+            "Color": [0.2, 0.6, 0.9],
+            "Position": [0, 1, 0],
+            "Size": [120, 4, 120]
+          }
+        },
+        "Lake": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "CanCollide": true,
+            "Color": [0.2, 0.55, 0.85],
+            "Position": [-200, 1, 0],
+            "Size": [100, 4, 150]
+          }
+        },
+        "River": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "CanCollide": true,
+            "Color": [0.2, 0.5, 0.8],
+            "Position": [200, 1, 0],
+            "Size": [100, 4, 150]
+          }
+        },
+        "Ocean": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "CanCollide": true,
+            "Color": [0.15, 0.45, 0.75],
+            "Position": [0, 1, -200],
+            "Size": [150, 4, 100]
+          }
+        },
+        "AbyssalTrench": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "CanCollide": true,
+            "Color": [0.1, 0.3, 0.6],
+            "Position": [0, 1, 200],
+            "Size": [150, 4, 100]
+          }
+        }
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
