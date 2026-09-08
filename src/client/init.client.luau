@@ -1,1 +1,3 @@
-print("Hello world, from client!")
+-- Client entry point. Individual client features are their own LocalScripts
+-- (siblings of this one under StarterPlayerScripts.Client): FishRenderer plus the
+-- screens under UI/. Nothing needs to be bootstrapped from here yet.

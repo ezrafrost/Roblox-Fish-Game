@@ -37,8 +37,9 @@ PolicyServiceWrapper.Init()
 local TradeService = require(script.Services.TradeService)
 TradeService.Init()
 
-print("Hello world, from server!")
-
+-- Dev diagnostic: on server start, sample the fishing roll distribution for a
+-- couple of rods and print the realised rarity frequencies. Used to sanity-check
+-- OddsCalculator's weights while tuning the economy - not a gameplay system.
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RarityConfig = require(ReplicatedStorage.Config.RarityConfig)
 local RodConfig = require(ReplicatedStorage.Config.RodConfig)

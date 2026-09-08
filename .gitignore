@@ -1,13 +1,31 @@
-# Project place file
-/Roblox fish game.rbxlx
+# Rojo build output
+/*.rbxlx
+/*.rbxl
 
 # Roblox Studio lock files
 /*.rbxlx.lock
 /*.rbxl.lock
 
-sourcemap.json
+# Rojo-generated sourcemap (regenerate with `rojo sourcemap`)
+/sourcemap.json
 
 # Wally-managed packages (fetched via `wally install`, not committed)
 /Packages
 /ServerPackages
 /DevPackages
+wally-package.toml
+
+# Aftman / Rokit local tool installs
+/.aftman
+/.rokit
+
+# Editor / IDE
+/.vscode
+/.idea
+*.code-workspace
+*.swp
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
